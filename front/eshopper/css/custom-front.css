@@ -1,0 +1,41 @@
+.clear {
+    clear: both;
+}
+.col-custom {
+    padding-left: 0px;
+}
+table.item {
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 229, 229);
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+table.item th {
+    padding: 1em;
+    background: rgb(248, 248, 248); 
+    font-size: 13px;
+    text-align: right;
+}
+
+table.item td {
+	color: #000000;
+    padding: 1em;
+    background: #FFFFFF; 
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
+}
+
+table.item th:first-child, 
+table.item td:first-child {
+	padding-left: 2em;
+    text-align: left;
+}
+table.item th:last-child,
+table.item td:last-child {
+	padding-right: 2em;
+}
